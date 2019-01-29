@@ -4,14 +4,26 @@
 """
 
 
-USERS = [(i, f"first_name_{i}", "last_name_{i}") for i in range(1_000)]
+USERS = [(i, f"first_name_{i}", f"last_name_{i}") for i in range(1_000)]
 
 
 class User:
+    """
+    >>> jsmith = User(1, "John", "Smith")
+    >>> repr(jsmith)
+    "User(1, 'John', 'Smith')"
+    """
     def __init__(self, user_id, first_name, last_name):
         self.user_id = user_id
         self.first_name = first_name
         self.last_name = last_name
+
+    def __repr__(self):
+        return (
+            f"{self.__class__.__name__}({self.user_id!r}, "
+            f"{self.first_name!r}, "
+            f"{self.last_name!r})"
+        )
 
 
 def bad_users_from_rows(dbrows) -> list:
