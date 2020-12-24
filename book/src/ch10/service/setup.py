@@ -1,10 +1,11 @@
 from setuptools import find_packages, setup
 
+
 with open("README.rst", "r") as longdesc:
     long_description = longdesc.read()
 
 
-install_requires = ["web", "storage"]
+install_requires = ["web==0.1.0", "storage==0.1.0"]
 
 setup(
     name="delistatus",
@@ -15,8 +16,6 @@ setup(
     packages=find_packages(),
     install_requires=install_requires,
     entry_points={
-        "console_scripts": [
-            "status-service = statusweb.service:main",
-        ],
+        "console_scripts": ["status-service = statusweb.service:main"]
     },
 )

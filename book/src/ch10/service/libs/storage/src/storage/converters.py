@@ -1,6 +1,10 @@
 """Convert the row resulting from a query to the Entities object."""
-from .status import (DeliveryOrder, DispatchedOrder, OrderDelivered,
-                     OrderInTransit)
+from .status import (
+    DeliveryOrder,
+    DispatchedOrder,
+    OrderDelivered,
+    OrderInTransit,
+)
 
 
 def build_dispatched(row):

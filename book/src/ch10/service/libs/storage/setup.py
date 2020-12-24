@@ -4,7 +4,7 @@ with open("README.rst", "r") as longdesc:
     long_description = longdesc.read()
 
 
-install_requires = ["asyncpg"]
+install_requires = ["asyncpg>=0.21,<1"]
 
 setup(
     name="storage",

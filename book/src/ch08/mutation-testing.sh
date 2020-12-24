@@ -1,14 +1,12 @@
 #!/bin/bash
+export PYTHONPATH=src
+CASE=${CASE:-"1"}
 
-N=$!
-if [[ "$N" == "" ]]; then
-    N=1;
-fi
-
+echo "Running mutation testing ${CASE}"
 
 mut.py \
-    --target mutation_testing_$N \
-    --unit-test test_mutation_testing_$N \
+    --target src/mutation_testing_${CASE}.py \
+    --unit-test tests/test_mutation_testing_${CASE}.py \
     --operator AOD  `# delete arithmetic operator` \
     --operator AOR  `# replace arithmetic operator` \
     --operator COD  `# delete conditional operator` \

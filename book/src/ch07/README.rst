@@ -1,4 +1,4 @@
-Clean Code in Python - Chapter 7: Using Generators
+Clean Code in Python - Chapter 7: Generators, Iterators, and Asynchronous Programming
 ==================================================
 
 Run the tests::
@@ -8,26 +8,23 @@ Run the tests::
 
 Working With Generators
 -----------------------
-1. A First Glimpse at Generators: ``generators_1.py``
-
-2. The States of a Generator: ``generators_2.py``
+#. A First Glimpse at Generators: ``generators_1.py``
+#. The States of a Generator: ``generators_2.py``
 
 
 Idiomatic Iteration
 -------------------
-1. Idioms for Iteration in Python: ``generators_pythonic_1.py``
+#. Idioms for Iteration in Python: ``generators_pythonic_1.py``
+#. The Iterator Design Pattern, the Python way
 
-2. The Iterator Design Pattern, the Python way
-
-   2.1. A first approach of iteration with the iteration pattern: ``generators_pythonic_2.py``
-
-   2.2. The idiomatic way: using an Iterator: ``generators_pythonic_3.py``
+   #. A first approach of iteration with the iteration pattern: ``generators_pythonic_2.py``
+   #. The idiomatic way: using an Iterator: ``generators_pythonic_3.py``
 
 
 Coroutines
 ----------
-1. The Methods of the Generator Interface: ``generators_coroutines_1.py``
-
-2. Working with Coroutines: ``generators_coroutines_2.py``
-
-3. Delegating Coroutines: ``generators_yieldfrom_{2..3}.py``
+#. The Methods of the Generator Interface: ``generators_coroutines_1.py``
+#. Working with Coroutines: ``generators_coroutines_2.py``
+#. Delegating Coroutines: ``generators_yieldfrom_{1..3}.py``
+#. Asynchronous context managers: ``async_context_manager.py``
+#. Asynchronous iteration: ``async_iteration.py``

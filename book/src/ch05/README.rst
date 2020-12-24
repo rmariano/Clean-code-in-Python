@@ -1,5 +1,6 @@
 Chapter 05 - Decorators
 =======================
+The source files are in the `src/` directory and the tests files under `tests/`.
 
 Run the tests with::
 
