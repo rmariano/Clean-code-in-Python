@@ -2,9 +2,8 @@
 
 ## Book
 
-The source code for the examples listed in the
-[book](https://www.amazon.com/Clean-Code-Python-Refactor-codebase-ebook/dp/B07G19CHRM/ref=sr_1_1?s=books&ie=UTF8&qid=1535483811&sr=1-1)
-is under ``book/src``.
+The source code for the examples listed in the [book](https://www.amazon.es/gp/product/B08R961TRD/) is under
+``book/src``.
 
 ## EuroPython 2016 Talk
 
