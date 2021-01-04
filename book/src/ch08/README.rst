@@ -1,11 +1,6 @@
 Clean code in Python - Chapter 8: Unit testing and refactoring
 ==============================================================
 
-Install the dependencies::
-
-    make setup
-
-
 Run the tests::
 
     make test

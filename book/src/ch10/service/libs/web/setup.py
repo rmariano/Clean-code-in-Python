@@ -4,7 +4,7 @@ with open("README.rst", "r") as longdesc:
     long_description = longdesc.read()
 
 
-install_requires = ["sanic"]
+install_requires = ["sanic>=20,<21"]
 
 setup(
     name="web",

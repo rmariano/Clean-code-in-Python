@@ -4,8 +4,7 @@ import os
 from storage import DBClient, DeliveryStatusQuery, OrderNotFoundError
 from web import NotFound, View, app, register_route
 
-LISTEN_HOST = os.getenv("LISTEN_HOST", "0.0.0.0")
-LISTEN_PORT = os.getenv("LISTEN_PORT", 8080)
+LISTEN_PORT = os.getenv("LISTEN_PORT", 5000)
 
 
 class DeliveryView(View):
@@ -23,7 +22,7 @@ register_route(DeliveryView, "/status/<delivery_id:int>")
 
 
 def main():
-    app.run(host=LISTEN_HOST, port=LISTEN_PORT)
+    app.run(host="0.0.0.0", port=LISTEN_PORT)
 
 
 if __name__ == "__main__":

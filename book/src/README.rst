@@ -1,16 +1,38 @@
 Clean Code in Python
 --------------------
+Code for the book 'Clean code in Python', second edition.
+
+Requirements
+============
+The code in this repository can be run directly in a local machine, provided some dependencies are met (explained in the
+next section).  Alternatively, a Docker image is provided, which can be used to interact directly with.
+
+Running it locally
+^^^^^^^^^^^^^^^^^^
+The code in this repository assumes Python 3.9+ is installed in the system, and that ``python3.9`` is available in the
+current path.
+
+    - Python 3.9+
+    - GNU make and building tools for the dependencies (gcc, python3 dev files, etc.)
+
+Docker
+^^^^^^
+A docker image is provided to make it simpler for readers to try out the code examples.
+You can obtain the image, and interact with it by running::
+
+    docker pull rmariano/ccip:latest
+    docker run -it rmariano/ccip:latest
 
 Setup
 =====
-
-Create a virtual environment, and once activated run::
+To install the dependencies, run::
 
     make setup
 
-This will install the common dependencies. Besides this, each chapter might
-have additional ones, for which another ``make setup`` will have to be run
-inside that particular directory.
+This will create a new virtual environment, called ``.env`` and install the dependencies on it. From this point, you
+need to activate the virtual environment to run the rest of the code examples. The environment is activated by running::
+
+    source .env/bin/activate
 
 Each chapter has its corresponding directory given by its number.
 
@@ -35,7 +57,7 @@ Chapters Index
 * Chapter 04: The SOLID Principles
 * Chapter 05: Decorators
 * Chapter 06: Getting More out of our Objects with Descriptors
-* Chapter 07: Using Generators
+* Chapter 07: Generators, Iterators, and Asynchronous Programming
 * Chapter 08: Unit Testing and Refactoring
 * Chapter 09: Common Design Patterns
 * Chapter 10: Clean Architecture
