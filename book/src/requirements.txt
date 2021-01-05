@@ -10,7 +10,7 @@ pinject==0.14.1
 pip-tools==5.4.0
 pyflakes==2.2.0
 pylint==2.6.0
-pytest==6.2.0
+pytest==6.2.1
 pytest-cov==2.10.1
 # pytype==2020.12.2 ## downgrade to py38
 requests==2.25.0
