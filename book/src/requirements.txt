@@ -13,5 +13,5 @@ pylint==2.6.0
 pytest==6.2.2
 pytest-cov==2.11.1
 # pytype==2020.12.2 ## downgrade to py38
-requests==2.25.0
+requests==2.25.1
 yapf==0.30.0
