@@ -5,6 +5,8 @@
 The source code for the examples listed in the [book](https://www.amazon.es/gp/product/B08R961TRD/) is under
 ``book/src``.
 
+![](book/cover.png)
+
 ## EuroPython 2016 Talk
 
 Sources of the talk, as presented at EuroPython 2016.
