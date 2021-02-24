@@ -12,6 +12,6 @@ pyflakes==2.2.0
 pylint==2.7.1
 pytest==6.2.2
 pytest-cov==2.11.1
-# pytype==2020.12.2 ## downgrade to py38
+pytype==2021.2.23
 requests==2.25.1
 yapf==0.30.0
