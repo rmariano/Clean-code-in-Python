@@ -9,7 +9,7 @@ mypy-extensions==0.4.3
 pinject==0.14.1
 pip-tools==5.5.0
 pyflakes==2.2.0
-pylint==2.7.0
+pylint==2.7.1
 pytest==6.2.2
 pytest-cov==2.11.1
 # pytype==2020.12.2 ## downgrade to py38
