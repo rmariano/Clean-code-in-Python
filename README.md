@@ -7,6 +7,9 @@ The source code for the examples listed in the [book](https://www.amazon.es/gp/p
 
 ![](book/cover.png)
 
+### Testing the code
+To test the code from the book, you can either follow the instructions on this repository, or try out the [Docker image](https://hub.docker.com/r/rmariano/ccip).
+
 ## EuroPython 2016 Talk
 
 Sources of the talk, as presented at EuroPython 2016.
