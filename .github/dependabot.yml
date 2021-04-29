@@ -1,0 +1,63 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/book/src"
+  schedule:
+    interval: daily
+    time: "11:00"
+  open-pull-requests-limit: 10
+  target-branch: main
+  ignore:
+  - dependency-name: black
+    versions:
+    - 21.4b0
+    - 21.4b1
+  - dependency-name: hypothesis
+    versions:
+    - 6.1.0
+    - 6.10.0
+    - 6.3.4
+    - 6.4.0
+    - 6.4.2
+    - 6.4.3
+    - 6.8.3
+    - 6.8.4
+    - 6.8.5
+    - 6.8.8
+    - 6.9.1
+    - 6.9.2
+  - dependency-name: pytype
+    versions:
+    - 2021.3.10
+    - 2021.4.1
+    - 2021.4.9
+  - dependency-name: yapf
+    versions:
+    - 0.31.0
+  - dependency-name: pyflakes
+    versions:
+    - 2.3.0
+  - dependency-name: pylint
+    versions:
+    - 2.7.4
+  - dependency-name: pip-tools
+    versions:
+    - 6.0.0
+  - dependency-name: requests
+    versions:
+    - 2.25.1
+  - dependency-name: mypy
+    versions:
+    - "0.800"
+  - dependency-name: coverage
+    versions:
+    - "5.4"
+  - dependency-name: pytest
+    versions:
+    - 6.2.2
+  - dependency-name: isort
+    versions:
+    - 5.7.0
+  - dependency-name: pytest-cov
+    versions:
+    - 2.11.1
