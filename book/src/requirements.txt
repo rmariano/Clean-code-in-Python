@@ -1,7 +1,7 @@
-black==20.8b1
+black==21.5b0
 coverage==5.5
 flake8==3.9.1
-hypothesis==6.8.9
+hypothesis==6.10.1
 isort==5.8.0
 MutPy==0.6.1
 mypy==0.812
@@ -10,8 +10,8 @@ pinject==0.14.1
 pip-tools==6.1.0
 pyflakes==2.3.1
 pylint==2.8.2
-pytest==6.2.3
+pytest==6.2.4
 pytest-cov==2.11.1
-pytype==2021.4.15
+pytype==2021.5.4
 requests==2.25.1
 yapf==0.31.0
