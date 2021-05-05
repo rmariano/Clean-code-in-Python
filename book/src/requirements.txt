@@ -10,7 +10,7 @@ pinject==0.14.1
 pip-tools==6.1.0
 pyflakes==2.3.1
 pylint==2.8.1
-pytest==6.2.3
+pytest==6.2.4
 pytest-cov==2.11.1
 pytype==2021.5.4
 requests==2.25.1
