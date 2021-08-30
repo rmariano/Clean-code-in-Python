@@ -34,7 +34,7 @@ def _iterate_array2d(array2d):
 
 
 def search_nested(array, desired_value):
-    """"Searching in multiple dimensions with a single loop."""
+    """Searching in multiple dimensions with a single loop."""
     try:
         coord = next(
             coord
