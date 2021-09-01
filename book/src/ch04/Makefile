@@ -1,6 +1,3 @@
-PYTHON:=$(VIRTUAL_ENV)/bin/python
-export PYTHONPATH=src
-
 .PHONY: test
 test:
 	@$(PYTHON) -m doctest src/*.py

@@ -20,5 +20,5 @@ shell:
 test:
 	for chapter_dir in $(shell ls -d ch0*); do \
 		echo "Testing $$chapter_dir"; \
-		$(MAKE) test -C $$chapter_dir ; \
+		$(MAKE) test -C $$chapter_dir PYTHONPATH=src PYTHON=$(PYTHON); \
 	done

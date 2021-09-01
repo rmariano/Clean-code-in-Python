@@ -1,7 +1,3 @@
-export PYTHONPATH=src
-VIRTUAL_ENV ?= /usr/local
-PYTHON:=$(VIRTUAL_ENV)/bin/python
-
 .PHONY: clean
 clean:
 	find . -name "*.swp" -o -name "__pycache__" | xargs rm -fr
