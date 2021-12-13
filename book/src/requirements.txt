@@ -1,7 +1,7 @@
 black==21.9b0
 coverage==6.0.2
 flake8==4.0.1
-hypothesis==6.24.3
+hypothesis==6.31.4
 isort==5.9.3
 MutPy==0.6.1
 mypy==0.910
