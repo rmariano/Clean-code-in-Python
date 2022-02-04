@@ -1,4 +1,4 @@
-ipython==4.1.2
+ipython==7.16.3
 pytest==2.9.1
 coverage==4.0.3
 pytest-cov==2.2.1
