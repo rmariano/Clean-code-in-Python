@@ -14,4 +14,4 @@ pytest==7.0.0
 pytest-cov==3.0.0
 pytype==2021.10.11
 requests==2.27.1
-yapf==0.31.0
+yapf==0.32.0
