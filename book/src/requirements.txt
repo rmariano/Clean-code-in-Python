@@ -12,6 +12,6 @@ pyflakes==2.4.0
 pylint==2.13.8
 pytest==7.1.2
 pytest-cov==3.0.0
-pytype==2022.5.5
+pytype==2022.5.10
 requests==2.27.1
 yapf==0.32.0
