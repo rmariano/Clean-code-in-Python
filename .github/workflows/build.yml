@@ -1,7 +1,4 @@
 name: Build
-defaults:
-  run:
-    working-directory: book/src
 on:
   - pull_request
 
@@ -10,6 +7,9 @@ permissions:
 
 jobs:
   build:
+    defaults:
+      run:
+        working-directory: book/src
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
