@@ -6,6 +6,7 @@ permissions:
 
 jobs:
   dependabot:
+    needs: build
     runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
