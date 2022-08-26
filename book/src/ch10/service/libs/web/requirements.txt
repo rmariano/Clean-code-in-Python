@@ -13,7 +13,7 @@ httpx==0.23.0             # via sanic
 idna==2.10                # via rfc3986
 multidict==5.0.0          # via sanic
 rfc3986[idna2008]==1.4.0  # via httpx
-sanic==20.12.6             # via web (setup.py)
+sanic==20.12.7             # via web (setup.py)
 sniffio==1.2.0            # via httpcore, httpx
 ujson==5.2.0              # via sanic
 uvloop==0.14.0            # via sanic
