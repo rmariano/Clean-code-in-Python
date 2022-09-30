@@ -1,5 +1,5 @@
 black==22.8.0
-coverage==6.4.4
+coverage==6.5.0
 flake8==4.0.1
 hypothesis==6.55.0
 isort==5.10.1
