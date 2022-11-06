@@ -21,4 +21,4 @@ def _chain(*iterables):
 
 
 def all_powers(n, power):
-    yield from (n ** i for i in range(power + 1))
+    yield from (n**i for i in range(power + 1))
