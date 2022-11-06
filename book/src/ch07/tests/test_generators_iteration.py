@@ -23,7 +23,7 @@ class TestMappedRange(TestCase):
         self.assertRaises(IndexError, seq.__getitem__, 10)
 
     def test_getitem(self):
-        seq = MappedRange(lambda x: x ** 2, 1, 10)
+        seq = MappedRange(lambda x: x**2, 1, 10)
         self.assertEqual(seq[5], 36)
 
     def test_iterate(self):
