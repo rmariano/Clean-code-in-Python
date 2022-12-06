@@ -9,7 +9,7 @@ mypy-extensions==0.4.3
 pinject==0.14.1
 pip-tools==6.11.0
 pyflakes==2.5.0
-pylint==2.15.7
+pylint==2.15.8
 pytest==7.2.0
 pytest-cov==4.0.0
 pytype==2022.10.26
