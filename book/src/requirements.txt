@@ -8,7 +8,7 @@ mypy==0.991
 mypy-extensions==0.4.3
 pinject==0.14.1
 pip-tools==6.12.3
-pyflakes==2.5.0
+pyflakes==3.0.1
 pylint==2.16.3
 pytest==7.2.1
 pytest-cov==4.0.0
