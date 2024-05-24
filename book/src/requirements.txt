@@ -1,4 +1,4 @@
-black==23.12.1
+black==24.4.2
 coverage==7.5.1
 flake8==6.1.0
 hypothesis==6.102.6
