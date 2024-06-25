@@ -4,7 +4,7 @@ flake8==6.1.0
 hypothesis==6.103.5
 isort==5.13.2
 MutPy==0.6.1
-mypy==1.10.0
+mypy==1.10.1
 mypy-extensions==1.0.0
 pinject==0.14.1
 pip-tools==7.4.1
