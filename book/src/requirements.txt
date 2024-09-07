@@ -1,6 +1,6 @@
 black==24.8.0
 coverage==7.6.1
-flake8==6.1.0
+flake8==7.1.1
 hypothesis==6.112.0
 isort==5.13.2
 MutPy==0.6.1
