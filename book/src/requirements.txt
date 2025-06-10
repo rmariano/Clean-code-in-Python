@@ -13,5 +13,5 @@ pylint==3.3.7
 pytest==8.4.0
 pytest-cov==5.0.0
 pytype==2024.9.13
-requests==2.32.3
+requests==2.32.4
 yapf==0.43.0
