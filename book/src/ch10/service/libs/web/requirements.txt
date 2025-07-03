@@ -6,7 +6,7 @@
 #
 aiofiles==0.6.0           # via sanic
 certifi==2024.7.4        # via httpx
-h11==0.9.0                # via httpcore
+h11==0.16.0                # via httpcore
 httpcore==0.11.1          # via httpx
 httptools==0.1.1          # via sanic
 httpx==0.23.0             # via sanic
